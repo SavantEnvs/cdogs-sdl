@@ -1,0 +1,9 @@
+project: savantenvs/cdogs-sdl
+target: fuzz_campaign
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_campaign/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_campaign
+    libfuzzer: true
+    timeout: 10

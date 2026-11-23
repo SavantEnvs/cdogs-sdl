@@ -1,0 +1,9 @@
+project: savantenvs/cdogs-sdl
+target: fuzz_cwolfmap
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_cwolfmap/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_cwolfmap
+    libfuzzer: true
+    timeout: 10

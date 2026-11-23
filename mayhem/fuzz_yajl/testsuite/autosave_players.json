@@ -1,0 +1,25 @@
+{
+	"Version": 3,
+	"LastCampaignIndex": 1,
+	"Missions": [{
+		"Campaign": {
+			"Path": "missions/ogre.cdogscpn"
+		},
+		"NextMission": 3,
+		"MissionsCompleted": [0, 1, 2],
+		"Players": [{
+			"Guns": ["Machine gun", "Shotgun"],
+			"Ammo": [10, 0, 25],
+			"Lives": 2,
+			"HP": 120,
+			"Score": 4500
+		}]
+	}, {
+		"Campaign": {
+			"Path": "missions/terror.cdogscpn"
+		},
+		"NextMission": 1,
+		"MissionsCompleted": [0],
+		"Players": []
+	}]
+}

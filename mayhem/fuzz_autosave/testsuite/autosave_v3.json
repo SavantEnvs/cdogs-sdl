@@ -1,0 +1,12 @@
+{
+	"Version": 3,
+	"LastCampaignIndex": 0,
+	"Missions": [{
+		"Campaign": {
+			"Path": "campaign.cdogscpn"
+		},
+		"NextMission": 1,
+		"MissionsCompleted": [],
+		"Players": []
+	}]
+}
